@@ -12,23 +12,23 @@
 		<div class="container">
 			<div class="jumbotron">
 				<h1>Good forms are usable forms</h1>
-				<p>Here are a few example form fields, some of which do not follow accessibility best practices.</p>
+				<p>Here are a few example form fields, some of which do not follow accessibility best practices. Can you help me fix them?</p>
 			</div>
 			<div class="page-header">
 				<h2>All form fields should have labels</h2>
 			</div>
 			<form action="forms.html">
-				First name: <input type="text" name="firstname"> <br>
-				Last name: <input type="text" name="lastname"> <br>
+				First name: <input id="firstname" type="text" name="firstname"> <br>
+				Last name: <input id="lastname" type="text" name="lastname"> <br>
 				<div class="page-header">
 					<h2>Use Fieldset and Legend!</h2>
 				</div>
-				Gender: Male: <input type="radio" name="gender" value="male"> 
-				Female: <input type="radio" name="gender" value="female"> <br>
+				Gender: Male: <input id="gender_male" type="radio" name="gender" value="male"> 
+				Female: <input id="gender_female" type="radio" name="gender" value="female"> <br>
 				<div class="page-header">
 					<h2>What about Placeholder?</h2>
 				</div>
-				<input type="text" placeholder="occupation">
+				<input id="occupation" type="text" placeholder="occupation">
 				<p>If you absolutely have to have in field labels, use a well-tested accessible library to make them happen. Perhaps <a href="http://viget.com/inspire/making-infield-form-labels-suck-less-2">http://viget.com/inspire/making-infield-form-labels-suck-less-2</a></p>
 			</form>
 			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -38,7 +38,7 @@
 			<br>
 			<br>
 		</div>
-		<div class="container">
+		<div class="container well">
 			<footer>
 				<small>
 					The first name/last name example form was taken from <a href="http://www.w3schools.com/html/tryit.asp?filename=tryhtml_input">w3schools try it editor for forms!</a>
