@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Alternative Text</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/accessible.css">
+    </head>
+    <body>
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Good Alternative Text</h1>
+				<p><strong>All Images must have alt text! Even if it's empty (alt="")</strong></p>
+			</div>
+			<div class="page-header">
+				<h2>Convey the same information to all users</h2>
+				<h3>A basic image that needs alt text</h3>
+				<img alt="Recumbent bike and rider" src="//upload.wikimedia.org/wikipedia/en/1/12/Lightning_P38_RideXNC.jpg" width="300" height="231" class="thumbimage">
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. Stet clita kasd gubergren, no sea takimata sanctus est.
+At vero eos et accusam et justo duo dolores et ea rebum.. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+				<br>
+				<br>
+				<br>
+				<h3>Image with caption that needs alt=""</h3>
+				<img alt="" src="//upload.wikimedia.org/wikipedia/en/1/12/Lightning_P38_RideXNC.jpg" width="300" height="231" class="thumbimage">
+				<div class="caption">
+					Lightning P38 (a short-wheelbase recumbent) and rider rest during a long tour.
+				</div>
+			</div>
+			<div class="page-header">
+				<h2>Is it Decorative or Informative?</h2>
+			</div>
+			<p>If the image is decorative and conveys no information then make it a css background or use alt=""</p>
+			<div class="page-header">
+				<h3>Example Decorative Background (inline)</h3>
+			</div>
+			<div class="dont_decorate_me">
+				<p>I feel pretty!</p>	
+				<img src="images/free_yellow_border.jpg" alt="">
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. Stet clita kasd gubergren, no sea takimata sanctus est.
+At vero eos et accusam et justo duo dolores et ea rebum.. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+			</div>
+			<div class="page-header">
+				<h3>Example Decorative Background (css)</h3>
+			</div>
+			<div class="decorate_me">
+				<p>I feel pretty!</p>	
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. Stet clita kasd gubergren, no sea takimata sanctus est.
+At vero eos et accusam et justo duo dolores et ea rebum.. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+			</div>
+			<div class="page-header">
+				<h3>Example Image with Text</h3>
+			</div>
+			<div>
+				<p>I so funny</p>	
+				<p>But seriously, if it has text then you need alt text. Definitely.</p>
+				<img src="images/most_interesting_alt_text.jpg" alt="Most interesting man in the world: I don't always use images but when I do they have alt text.">
+			</div>
+			<div class="page-header">
+				<h3>A linked Image</h3>
+			</div>
+			<div>
+				<p>Where am I going?</p>	
+				<a href="http://a11ymemes.tumblr.com/"><img src="images/not_ignore_accessibility.png" alt="Accessibility Memes: Mordor: One does not simply ignore accessibility"></a>
+			</div>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		</div>
+    </body>
+</html>
