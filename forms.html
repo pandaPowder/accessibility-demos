@@ -18,17 +18,20 @@
 				<h2>All form fields should have labels</h2>
 			</div>
 			<form action="forms.html">
-				First name: <input id="firstname" type="text" name="firstname"> <br>
-				Last name: <input id="lastname" type="text" name="lastname"> <br>
+				<label for="firstname">First name:</label> <input type="text" id="firstname" name="firstname"> <br>
+				<label for="lastname">Last name:</label> <input type="text" id="lastname" name="lastname"> <br>
 				<div class="page-header">
 					<h2>Use Fieldset and Legend!</h2>
 				</div>
-				Gender: Male: <input id="gender_male" type="radio" name="gender" value="male"> 
-				Female: <input id="gender_female" type="radio" name="gender" value="female"> <br>
+				<fieldset>
+					<legend>Gender:</legend>
+					<label for="gender_male">Male:</label> <input id="gender_male" type="radio" name="gender" value="male"> 
+					<label for="gender_female">Female:</label> <input id="gender_female" type="radio" name="gender" value="female"> <br>
+				</fieldset>
 				<div class="page-header">
 					<h2>What about Placeholder?</h2>
 				</div>
-				<input id="occupation" type="text" placeholder="Developer">
+				<label for="occupation">Occupation:</label> <input id="occupation" type="text" placeholder="Developer">
 				<p>If you absolutely have to have in field labels, use a well-tested accessible library to make them happen. Perhaps <a href="http://viget.com/inspire/making-infield-form-labels-suck-less-2">http://viget.com/inspire/making-infield-form-labels-suck-less-2</a></p>
 			</form>
 			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

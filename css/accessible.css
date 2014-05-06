@@ -1,0 +1,9 @@
+.decorate_me
+{
+	background-image: url(../images/free_yellow_border.jpg);
+	width:480px;
+}
+.dont_decorate_me
+{
+	width:480px;
+}
